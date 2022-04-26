@@ -1,0 +1,2 @@
+msg = "";
+inputNum = -1;
