@@ -1,2 +1,2 @@
-draw_sprite(sStepGrid,0,x,y);
+draw_self();
 

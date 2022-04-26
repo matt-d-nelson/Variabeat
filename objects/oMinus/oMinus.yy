@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sStepGrid",
-    "path": "sprites/sStepGrid/sStepGrid.yy",
+    "name": "sMinus",
+    "path": "sprites/sMinus/sMinus.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oStepGrid",
+  "name": "oMinus",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sStepGrid",
-    "path": "sprites/sStepGrid/sStepGrid.yy",
+    "name": "sPlus",
+    "path": "sprites/sPlus/sPlus.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,8 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oStepGrid",
+  "name": "oPlus",
   "tags": [],
   "resourceType": "GMObject",
 }
