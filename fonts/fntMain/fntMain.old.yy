@@ -205,7 +205,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Font1",
+  "name": "fntMain",
   "tags": [],
   "resourceType": "GMFont",
 }
