@@ -13,5 +13,6 @@ if selected {
 	if(string_digits(textIn) != "") {
 		tempo = string_digits(textIn);
 		tempo = clamp(tempo, 1, 999);
+		framesPerBeat = 60/(tempo/60);
 	}
 }
