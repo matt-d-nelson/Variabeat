@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sPlay","path":"sprites/sPlay/sPlay.yy",},"order":9,},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},"order":1,},
     {"id":{"name":"sndHHat","path":"sounds/sndHHat/sndHHat.yy",},"order":7,},
     {"id":{"name":"oTempo","path":"objects/oTempo/oTempo.yy",},"order":7,},
@@ -25,6 +26,7 @@
     {"id":{"name":"sPlus","path":"sprites/sPlus/sPlus.yy",},"order":4,},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},"order":0,},
     {"id":{"name":"sndHTomGhost","path":"sounds/sndHTomGhost/sndHTomGhost.yy",},"order":4,},
+    {"id":{"name":"oPlay","path":"objects/oPlay/oPlay.yy",},"order":8,},
     {"id":{"name":"oStepGrid","path":"objects/oStepGrid/oStepGrid.yy",},"order":3,},
     {"id":{"name":"sLabel","path":"sprites/sLabel/sLabel.yy",},"order":3,},
     {"id":{"name":"sMinus","path":"sprites/sMinus/sMinus.yy",},"order":5,},
