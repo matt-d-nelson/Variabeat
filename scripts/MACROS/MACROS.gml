@@ -3,6 +3,7 @@
 #macro RESOLUTION_GUI_H 180
 #macro RESOLUTION_W 1280
 #macro RESOLUTION_H 720
+#macro GRID_MAX 32
 
 
 //----------------------ENUMS----------------------//
@@ -15,5 +16,6 @@ enum SOUND {
 	LTOM,
 	LTOM_GHOST,
 	HHAT,
-	HHAT_GHOST
+	HHAT_GHOST,
+	LENGTH
 }

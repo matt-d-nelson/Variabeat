@@ -3,6 +3,7 @@
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},"order":1,},
     {"id":{"name":"sndHHat","path":"sounds/sndHHat/sndHHat.yy",},"order":7,},
     {"id":{"name":"sndSnare","path":"sounds/sndSnare/sndSnare.yy",},"order":1,},
+    {"id":{"name":"sStepBox","path":"sprites/sStepBox/sStepBox.yy",},"order":7,},
     {"id":{"name":"sndLTomGhost","path":"sounds/sndLTomGhost/sndLTomGhost.yy",},"order":6,},
     {"id":{"name":"oNote","path":"objects/oNote/oNote.yy",},"order":6,},
     {"id":{"name":"sndHHatGhost","path":"sounds/sndHHatGhost/sndHHatGhost.yy",},"order":8,},
@@ -26,6 +27,7 @@
     {"id":{"name":"sLabel","path":"sprites/sLabel/sLabel.yy",},"order":3,},
     {"id":{"name":"sMinus","path":"sprites/sMinus/sMinus.yy",},"order":5,},
     {"id":{"name":"sInputBox","path":"sprites/sInputBox/sInputBox.yy",},"order":0,},
+    {"id":{"name":"GenerateStep","path":"scripts/GenerateStep/GenerateStep.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
