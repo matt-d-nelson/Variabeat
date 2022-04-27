@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},"order":1,},
     {"id":{"name":"sndHHat","path":"sounds/sndHHat/sndHHat.yy",},"order":7,},
+    {"id":{"name":"oTempo","path":"objects/oTempo/oTempo.yy",},"order":7,},
     {"id":{"name":"sndSnare","path":"sounds/sndSnare/sndSnare.yy",},"order":1,},
     {"id":{"name":"sStepBox","path":"sprites/sStepBox/sStepBox.yy",},"order":7,},
     {"id":{"name":"sndLTomGhost","path":"sounds/sndLTomGhost/sndLTomGhost.yy",},"order":6,},
@@ -15,6 +16,7 @@
     {"id":{"name":"sStepGrid","path":"sprites/sStepGrid/sStepGrid.yy",},"order":2,},
     {"id":{"name":"Misc","path":"scripts/Misc/Misc.yy",},"order":1,},
     {"id":{"name":"oPlus","path":"objects/oPlus/oPlus.yy",},"order":4,},
+    {"id":{"name":"sTempoBox","path":"sprites/sTempoBox/sTempoBox.yy",},"order":8,},
     {"id":{"name":"oUIMain","path":"objects/oUIMain/oUIMain.yy",},"order":2,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"sndSnareGhost","path":"sounds/sndSnareGhost/sndSnareGhost.yy",},"order":2,},
