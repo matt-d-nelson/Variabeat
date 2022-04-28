@@ -4,3 +4,5 @@ playObject = instance_create_depth(47, 144, depth-1, oPlay);
 
 timer = 0;
 stepIndex = 0;
+
+audio_master_gain(2);

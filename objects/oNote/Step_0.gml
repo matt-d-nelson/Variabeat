@@ -23,6 +23,6 @@ if !mouse_check_button(mb_left) && selected == true {
 //adjust the chance with mouse_y movement if selected
 if selected {
 	chance += sign(mousePrevious-mouse_y)*0.1;
-	chance = clamp(chance,0,1);
+	chance = clamp(chance,0.1,1);
 	mousePrevious = mouse_y;
 }

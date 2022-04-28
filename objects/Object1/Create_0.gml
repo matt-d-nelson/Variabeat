@@ -1,2 +1,0 @@
-msg = "";
-inputNum = -1;

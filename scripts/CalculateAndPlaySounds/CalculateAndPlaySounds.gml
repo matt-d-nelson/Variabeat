@@ -1,6 +1,6 @@
 function CalculateAndPlaySounds(_array){
 	for(i = 0; i < array_length(_array); i++) {
-		if _array[i].active {
+		if _array[i].active && _array[i].chance >= random(1) {
 			switch (i) {
 				case SOUND.KICK:
 					audio_play_sound(sndKick, 100, false);
@@ -35,3 +35,4 @@ function CalculateAndPlaySounds(_array){
 		}
 	}
 }
+
