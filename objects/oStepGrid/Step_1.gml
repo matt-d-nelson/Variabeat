@@ -1,4 +1,4 @@
-//moved to end step so any array changes happen last
+//moved to end step so any array changes happen first
 
 //remove steps when minus button is clicked
 if position_meeting(mouse_x/4,mouse_y/4,minus) {

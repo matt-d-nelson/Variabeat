@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sVolume","path":"sprites/sVolume/sVolume.yy",},"order":10,},
     {"id":{"name":"sPlay","path":"sprites/sPlay/sPlay.yy",},"order":9,},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},"order":1,},
     {"id":{"name":"oTempo","path":"objects/oTempo/oTempo.yy",},"order":7,},
@@ -16,8 +17,10 @@
     {"id":{"name":"sndHTom","path":"sounds/sndHTom/sndHTom.yy",},"order":13,},
     {"id":{"name":"CalculateAndPlaySounds","path":"scripts/CalculateAndPlaySounds/CalculateAndPlaySounds.yy",},"order":3,},
     {"id":{"name":"sTempoBox","path":"sprites/sTempoBox/sTempoBox.yy",},"order":8,},
+    {"id":{"name":"oVolume","path":"objects/oVolume/oVolume.yy",},"order":9,},
     {"id":{"name":"oUIMain","path":"objects/oUIMain/oUIMain.yy",},"order":2,},
     {"id":{"name":"sndSnareGhost","path":"sounds/sndSnareGhost/sndSnareGhost.yy",},"order":12,},
+    {"id":{"name":"sVol2","path":"sprites/sVol2/sVol2.yy",},"order":12,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"oMinus","path":"objects/oMinus/oMinus.yy",},"order":5,},
     {"id":{"name":"sNote","path":"sprites/sNote/sNote.yy",},"order":6,},
@@ -25,6 +28,7 @@
     {"id":{"name":"sPlus","path":"sprites/sPlus/sPlus.yy",},"order":4,},
     {"id":{"name":"sndSnare","path":"sounds/sndSnare/sndSnare.yy",},"order":11,},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},"order":0,},
+    {"id":{"name":"sVol1","path":"sprites/sVol1/sVol1.yy",},"order":11,},
     {"id":{"name":"oPlay","path":"objects/oPlay/oPlay.yy",},"order":8,},
     {"id":{"name":"oStepGrid","path":"objects/oStepGrid/oStepGrid.yy",},"order":3,},
     {"id":{"name":"sndHHat","path":"sounds/sndHHat/sndHHat.yy",},"order":9,},
