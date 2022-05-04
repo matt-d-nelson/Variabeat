@@ -12,7 +12,7 @@ if !mouse_check_button(mb_left) && selected == true {
 
 //adjust gain if selected
 if selected {
-	changeToGain += sign(mousePrevious-mouse_y)*0.1;
-	changeToGain = clamp(chance,0.1,2);
-	mousePrevious = mouse_y;
+	changeToGain += sign(mouse_x-mousePrevious)*0.055;
+	changeToGain = clamp(changeToGain,-1,1);
+	mousePrevious = mouse_x;
 }

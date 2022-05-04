@@ -1,4 +1,4 @@
-/// @description play audio
+/// @description play audio/ adjust gain/ adjust density
 
 // play audio
 if playObject.playing {
@@ -16,6 +16,9 @@ if playObject.playing {
 }
 
 //adjust gain
+
+audio_master_gain(gain + (volumeObject.changeToGain*2));
+
 
 //adjust density
 

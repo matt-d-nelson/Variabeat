@@ -5,5 +5,4 @@ volumeObject = instance_create_depth(47 + sprite_get_width(sPlay) + sprite_get_w
 
 timer = 0;
 stepIndex = 0;
-
-audio_master_gain(2);
+gain = 2;
