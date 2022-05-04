@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oVolume",
+  "name": "oDensity",
   "tags": [],
   "resourceType": "GMObject",
 }

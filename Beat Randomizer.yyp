@@ -1,9 +1,10 @@
 {
   "resources": [
-    {"id":{"name":"sVolume","path":"sprites/sVolume/sVolume.yy",},"order":10,},
+    {"id":{"name":"sSlider","path":"sprites/sSlider/sSlider.yy",},"order":10,},
     {"id":{"name":"sPlay","path":"sprites/sPlay/sPlay.yy",},"order":9,},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},"order":1,},
     {"id":{"name":"oTempo","path":"objects/oTempo/oTempo.yy",},"order":7,},
+    {"id":{"name":"oDensity","path":"objects/oDensity/oDensity.yy",},"order":10,},
     {"id":{"name":"sndLTom","path":"sounds/sndLTom/sndLTom.yy",},"order":15,},
     {"id":{"name":"sStepBox","path":"sprites/sStepBox/sStepBox.yy",},"order":7,},
     {"id":{"name":"oNote","path":"objects/oNote/oNote.yy",},"order":6,},

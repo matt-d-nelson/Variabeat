@@ -36,3 +36,12 @@ function CalculateAndPlaySounds(_array){
 	}
 }
 
+function EnforceGlobalDensity(_twoDemArray, _density) {
+	for(i = 0; i < array_length(_twoDemArray); i++) {
+		for(n = 0; n < array_length(_twoDemArray[i]); n++) {
+			if _twoDemArray[i][n].affectedByDensity {
+				_twoDemArray[i][n].density = _density;
+			}
+		}
+	}
+}

@@ -15,14 +15,29 @@ if position_meeting(mouse_x/4,mouse_y/4,self) {
 	} 
 }
 
-//deselect note if click is released
+//deselect note if click is released/ allow global density to affect chance if chance is less than 1
 if !mouse_check_button(mb_left) && selected == true {
 	selected = false;
+	if chance < 1 {
+		affectedByDensity = true;
+		density = 0;
+		densityPrevious = 0;
+	} else {
+		affectedByDensity = false;
+	}
 }
 
 //adjust the chance with mouse_y movement if selected
 if selected {
-	chance += sign(mousePrevious-mouse_y)*0.1;
-	chance = clamp(chance,0.1,1);
+	rootChance += sign(mousePrevious-mouse_y)*0.1;
+	chance = rootChance + density;
 	mousePrevious = mouse_y;
 }
+
+if densityPrevious != density {
+	chance = rootChance + density;
+	densityPrevious = density;
+}
+
+chance = clamp(chance,0.1,1); //moved outside of selected for global density adjustment
+

@@ -16,9 +16,10 @@ if playObject.playing {
 }
 
 //adjust gain
-
 audio_master_gain(gain + (volumeObject.changeToGain*2));
 
-
 //adjust density
-
+//density += densityObject.changeToDensity;
+if densityObject.selected {
+	EnforceGlobalDensity(gridObject.steps, densityObject.changeToDensity/1.5);
+}
