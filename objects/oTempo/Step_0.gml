@@ -14,12 +14,15 @@ if selected {
 		tempo = string_digits(textIn);
 	}
 	
-	
+	//mouse wheel to adjust tempo
+	if mouse_wheel_up() {tempo += 2;}
+	if mouse_wheel_down() {tempo -= 2;}
+
 	//click and drag to adjust tempo
-	//if mouse_check_button(mb_left) {
-		//tempo += sign(mousePrevious-mouse_y)*2;
-		//mousePrevious = mouse_y;
-	//}
+	if mouse_check_button(mb_left) {
+		tempo += sign(mousePrevious-mouse_y)*2;
+		mousePrevious = mouse_y;
+	}
 }
 
 
