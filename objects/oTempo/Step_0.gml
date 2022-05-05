@@ -9,10 +9,19 @@ if mouse_check_button_pressed(mb_left) {
 
 if selected {
 	textIn = keyboard_string;
-
+	//text input to adjust tempo
 	if(string_digits(textIn) != "") {
 		tempo = string_digits(textIn);
-		tempo = clamp(tempo, 1, 999);
-		framesPerBeat = 60/(tempo/60);
 	}
+	
+	
+	//click and drag to adjust tempo
+	//if mouse_check_button(mb_left) {
+		//tempo += sign(mousePrevious-mouse_y)*2;
+		//mousePrevious = mouse_y;
+	//}
 }
+
+
+tempo = clamp(tempo, 1, 999);
+framesPerBeat = 60/(tempo/60);

@@ -1,6 +1,9 @@
 SetTextDefaults();
 draw_self();
 
+draw_sprite(sLabel,0,47,48);
+draw_text(58,44,"steps");
+
 for(i = 0; i < array_length(steps); i++) {
 	draw_sprite(
 		sStepBox,
