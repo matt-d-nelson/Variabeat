@@ -29,3 +29,11 @@ draw_sprite_ext(
 
 //Draw volume container
 draw_self();
+
+//Draw click handle
+draw_sprite(
+	sSliderHandle,
+	selected,
+	sliderX,
+	y
+);

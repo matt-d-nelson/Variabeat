@@ -12,7 +12,11 @@ if !mouse_check_button(mb_left) && selected == true {
 
 //adjust gain if selected
 if selected {
-	changeToDensity += sign(mouse_x-mousePrevious)*0.055;
+	//calc handler coordinates
+	sliderX = floor(mouse_x/4);
+	sliderX = clamp(sliderX, x+3, x+sprite_width-3);
+	
+	//MATH desc in oVolume	
+	changeToDensity = (((floor(mouse_x/4)-x) / sprite_width) * 2) - 1;
 	changeToDensity = clamp(changeToDensity,-1,1);
-	mousePrevious = mouse_x;
 }

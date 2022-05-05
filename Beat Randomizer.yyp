@@ -8,6 +8,7 @@
     {"id":{"name":"sndLTom","path":"sounds/sndLTom/sndLTom.yy",},"order":15,},
     {"id":{"name":"sStepBox","path":"sprites/sStepBox/sStepBox.yy",},"order":7,},
     {"id":{"name":"oNote","path":"objects/oNote/oNote.yy",},"order":6,},
+    {"id":{"name":"sSliderHandle","path":"sprites/sSliderHandle/sSliderHandle.yy",},"order":13,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":1,},
     {"id":{"name":"sStepGrid","path":"sprites/sStepGrid/sStepGrid.yy",},"order":2,},
     {"id":{"name":"sndHHatGhost","path":"sounds/sndHHatGhost/sndHHatGhost.yy",},"order":10,},
