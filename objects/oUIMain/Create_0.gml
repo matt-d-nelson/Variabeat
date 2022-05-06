@@ -11,3 +11,4 @@ timer = 0;
 stepIndex = 0;
 gain = 2;
 density = 1;
+soloMode = false;

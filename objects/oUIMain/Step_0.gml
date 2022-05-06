@@ -2,11 +2,13 @@
 
 // play audio
 if playObject.playing {
+	//check timer and ensure there are steps
 	if timer <= 0 && array_length(gridObject.steps) != 0{
 		if (stepIndex) >= array_length(gridObject.steps) {
 			stepIndex = 0;
 		}
-		CalculateAndPlaySounds(gridObject.steps[stepIndex]);
+		CheckForSolo(muteSoloObject.muteSoloArray);
+		CalculateAndPlaySounds(gridObject.steps[stepIndex],muteSoloObject.muteSoloArray);
 		timer = tempoObject.framesPerBeat;
 		stepIndex++;
 	}
