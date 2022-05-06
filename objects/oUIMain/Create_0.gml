@@ -1,6 +1,7 @@
 indent = 41;
 
 gridObject = instance_create_depth(indent,63,depth-1,oStepGrid);
+muteSoloObject = instance_create_depth(indent,63,depth-1,oMuteSolo);
 tempoObject = instance_create_depth(indent + sprite_get_width(sLabel) + 4,36, depth-1,oTempo);
 playObject = instance_create_depth(indent, 144, depth-1, oPlay);
 volumeObject = instance_create_depth(indent + sprite_get_width(sPlay) + sprite_get_width(sLabel) + 8, 144, depth-1, oVolume);
