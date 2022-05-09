@@ -25,6 +25,5 @@ if selected {
 	}
 }
 
-
 tempo = clamp(tempo, 1, 999);
 framesPerBeat = 60/(tempo/60);

@@ -11,7 +11,7 @@ function CalculateAndPlaySounds(_stepArray,_muteSoloArray){
 function playSoundSwitch(_index) {
 	switch (_index) {
 		case SOUND.KICK:
-			audio_play_sound(sndKick, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.KICK].sound, 100, false);
 		break;
 		case SOUND.SNARE:
 			audio_play_sound(sndSnare, 100, false);
@@ -62,3 +62,4 @@ function CheckForSolo(_array) {
 	soloMode = false;
 	return;
 }
+
