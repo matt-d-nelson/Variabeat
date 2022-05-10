@@ -9,3 +9,4 @@ densityPrevious = 0;
 affectedByDensity = false;
 
 mousePrevious = 0;
+
