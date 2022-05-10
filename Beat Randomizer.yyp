@@ -37,6 +37,7 @@
     {"id":{"name":"sndSnare","path":"sounds/sndSnare/sndSnare.yy",},"order":11,},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},"order":0,},
     {"id":{"name":"sVol1","path":"sprites/sVol1/sVol1.yy",},"order":11,},
+    {"id":{"name":"sSoundsManager","path":"sprites/sSoundsManager/sSoundsManager.yy",},"order":16,},
     {"id":{"name":"oPlay","path":"objects/oPlay/oPlay.yy",},"order":8,},
     {"id":{"name":"oStepGrid","path":"objects/oStepGrid/oStepGrid.yy",},"order":3,},
     {"id":{"name":"sndHHat","path":"sounds/sndHHat/sndHHat.yy",},"order":9,},

@@ -14,28 +14,28 @@ function playSoundSwitch(_index) {
 			audio_play_sound(soundsObject.sounds[SOUND.KICK].sound, 100, false);
 		break;
 		case SOUND.SNARE:
-			audio_play_sound(sndSnare, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.SNARE].sound, 100, false);
 		break;
 		case SOUND.SNARE_GHOST:
-			audio_play_sound(sndSnareGhost, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.SNARE_GHOST].sound, 100, false);
 		break;
 		case SOUND.HTOM:
-			audio_play_sound(sndHTom, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.HTOM].sound, 100, false);
 		break;
 		case SOUND.HTOM_GHOST:
-			audio_play_sound(sndHTomGhost, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.HTOM_GHOST].sound, 100, false);
 		break;
 		case SOUND.LTOM:
-			audio_play_sound(sndLTom, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.LTOM].sound, 100, false);
 		break;
 		case SOUND.LTOM_GHOST:
-			audio_play_sound(sndLTomGhost, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.LTOM_GHOST].sound, 100, false);
 		break;
 		case SOUND.HHAT:
-			audio_play_sound(sndHHat, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.HHAT].sound, 100, false);
 		break;
 		case SOUND.HHAT_GHOST:
-			audio_play_sound(sndHHatGhost, 100, false);
+			audio_play_sound(soundsObject.sounds[SOUND.HHAT_GHOST].sound, 100, false);
 		break;
 		default:
 		break;
