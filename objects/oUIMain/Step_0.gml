@@ -1,5 +1,10 @@
 /// @description play audio/ adjust gain/ adjust density
 
+//get this frame's animation
+var _greenAni = GreenAnimation();
+var _pinkAni = PinkAnimation();
+var _blackAni = BlackAnimation();
+
 // play audio
 if playObject.playing {
 	//check timer and ensure there are steps
@@ -15,16 +20,16 @@ if playObject.playing {
 	timer -= 2;
 	
 	//animate logo
-	greenY = y+2+(sin(get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);
-	pinkY = y+2+(sin(0.5+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);
-	blackY = y+2+(sin(1+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);
+	if round(_greenAni) == y+2 && animateBlack && animatePink {animateGreen = true;}
+	if round(_pinkAni) == y+2 && animateBlack {animatePink = true;}
+	if round(_blackAni) == y+2 {animateBlack = true;}
 } else {
 	timer = 0;	
 	
 	//stop animating logo
-	if round(greenY) == y+2 && blackY == y+2 && pinkY == y+2 {greenY = y+2;} else {greenY = y+2+(sin(get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);}
-	if round(pinkY) == y+2 && blackY == y +2 {pinkY = y+2;} else {pinkY = y+2+(sin(0.5+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);}
-	if round(blackY) == y+2 {blackY = y+2;} else {	blackY = y+2+(sin(1+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);}
+	if round(greenY) == y+2 && blackY == y+2 && pinkY == y+2 {animateGreen = false;}
+	if round(pinkY) == y+2 && blackY == y +2 {animatePink = false;}
+	if round(blackY) == y+2 {animateBlack = false;}
 }
 
 //adjust gain
@@ -35,3 +40,9 @@ audio_master_gain(gain + (volumeObject.changeToGain*2));
 if densityObject.selected {
 	EnforceGlobalDensity(gridObject.steps, densityObject.changeToDensity/1.5);
 }
+
+//apply animation
+if animateGreen {greenY = _greenAni;} else {greenY = y+2;}
+if animatePink {pinkY = _pinkAni;} else {pinkY = y+2;}
+if animateBlack {blackY = _blackAni;} else {blackY = y+2;}
+

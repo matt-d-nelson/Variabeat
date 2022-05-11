@@ -26,6 +26,7 @@
     {"id":{"name":"CalculateAndPlaySounds","path":"scripts/CalculateAndPlaySounds/CalculateAndPlaySounds.yy",},"order":3,},
     {"id":{"name":"oMuteSolo","path":"objects/oMuteSolo/oMuteSolo.yy",},"order":11,},
     {"id":{"name":"sTempoBox","path":"sprites/sTempoBox/sTempoBox.yy",},"order":8,},
+    {"id":{"name":"CalculateAnimation","path":"scripts/CalculateAnimation/CalculateAnimation.yy",},"order":5,},
     {"id":{"name":"oVolume","path":"objects/oVolume/oVolume.yy",},"order":9,},
     {"id":{"name":"sLogoGreen","path":"sprites/sLogoGreen/sLogoGreen.yy",},"order":2,},
     {"id":{"name":"oUIMain","path":"objects/oUIMain/oUIMain.yy",},"order":2,},

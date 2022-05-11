@@ -18,3 +18,7 @@ soloMode = false;
 greenY = y+2;
 pinkY = y+2;
 blackY = y+2;
+animateGreen = false;
+animatePink = false;
+animateBlack = false;
+
