@@ -13,8 +13,18 @@ if playObject.playing {
 		stepIndex++;
 	}
 	timer -= 2;
+	
+	//animate logo
+	greenY = y+2+(sin(get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);
+	pinkY = y+2+(sin(0.5+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);
+	blackY = y+2+(sin(1+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);
 } else {
 	timer = 0;	
+	
+	//stop animating logo
+	if round(greenY) == y+2 && blackY == y+2 && pinkY == y+2 {greenY = y+2;} else {greenY = y+2+(sin(get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);}
+	if round(pinkY) == y+2 && blackY == y +2 {pinkY = y+2;} else {pinkY = y+2+(sin(0.5+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);}
+	if round(blackY) == y+2 {blackY = y+2;} else {	blackY = y+2+(sin(1+get_timer()*0.0000025*pi*(tempoObject.tempo/150))*5);}
 }
 
 //adjust gain
