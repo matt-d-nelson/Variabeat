@@ -41,6 +41,16 @@ if densityObject.selected {
 	EnforceGlobalDensity(gridObject.steps, densityObject.changeToDensity/1.5);
 }
 
+//save and load
+if saveLoadObject.executeSave {
+	CreateSaveFile();
+	saveLoadObject.executeSave = false;
+}
+if saveLoadObject.executeLoad {
+	LoadSaveFile();
+	saveLoadObject.executeLoad = false;
+}
+
 //apply animation
 if animateGreen {greenY = _greenAni;} else {greenY = y+2;}
 if animatePink {pinkY = _pinkAni;} else {pinkY = y+2;}
