@@ -18,7 +18,7 @@ if position_meeting(mouse_x/4,mouse_y/4,plus) {
 	if mouse_check_button_pressed(mb_left) {
 		if array_length(steps) < GRID_MAX {
 			plus.clicked = true;
-			array_push(steps,GenerateStep());
+			array_push(steps,GenerateStep(array_length(steps),x,y,depth));
 		}
 	} 
 }
