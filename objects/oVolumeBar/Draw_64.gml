@@ -1,1 +1,11 @@
-draw_self();
+draw_sprite_ext(
+	sVolumeBar,
+	0,
+	x,
+	y,
+	image_xscale,
+	scale,
+	0,
+	c_white,
+	1
+);
