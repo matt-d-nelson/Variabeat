@@ -5,5 +5,5 @@ for(i = 0; i < SOUND.LENGTH; i++) {
 	array_push(volumeBars, _thisBar);
 }
 
-speaker = instance_create_depth(x + 51, y - 3, depth-1, oSpeaker);
+speaker = instance_create_depth(x + 59, y - 11, depth-1, oSpeaker);
 
