@@ -46,18 +46,22 @@ function CreateSaveFile() {
 	array_push(_saveData,_saveGrid);
 	
 	//convert saveData array into JSON and save in buffer
+	var _saveFileName = get_save_filename("*.save","");
 	var _string = json_stringify(_saveData);
 	var _buffer = buffer_create(string_byte_length(_string) + 1, buffer_fixed, 1);
 	buffer_write(_buffer, buffer_string, _string);
-	buffer_save(_buffer, "savedState.save");
+	//buffer_save(_buffer, "savedState.save");
+	buffer_save(_buffer, _saveFileName);
+
 	buffer_delete(_buffer);
 	
 	show_debug_message("Game saved " + _string);
 }
 
 function LoadSaveFile() {
-	if file_exists("savedState.save") {
-		//clear step grid
+	var _loadFileName = get_open_filename("*.save","");
+	if file_exists(_loadFileName) {
+		//clear current step grid
 		for(var i = 0; i < array_length(gridObject.steps); i++) {
 			for(var n = 0; n < array_length(gridObject.steps[i]); n++) {
 				instance_destroy(gridObject.steps[i][n]);	
@@ -75,7 +79,7 @@ function LoadSaveFile() {
 		soundsObject = instance_create_depth(indent - sprite_get_width(sSound), 64, depth-1, oSoundsManager);
 
 		
-		var _buffer = buffer_load("savedState.save");
+		var _buffer = buffer_load(_loadFileName);
 		var _string = buffer_read(_buffer, buffer_string);
 		buffer_delete(_buffer);
 		
