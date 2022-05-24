@@ -57,6 +57,24 @@ function CreateSaveFile() {
 
 function LoadSaveFile() {
 	if file_exists("savedState.save") {
+		//clear step grid
+		for(var i = 0; i < array_length(gridObject.steps); i++) {
+			for(var n = 0; n < array_length(gridObject.steps[i]); n++) {
+				instance_destroy(gridObject.steps[i][n]);	
+			}
+		}
+		//clear and recreate current instances before loading
+		instance_destroy(gridObject);
+		instance_destroy(tempoObject);
+		instance_destroy(densityObject);
+		instance_destroy(soundsObject);
+
+		gridObject = instance_create_depth(indent,63,depth-1,oStepGrid);
+		tempoObject = instance_create_depth(indent + sprite_get_width(sLabel) + 4,36, depth-1,oTempo);
+		densityObject = instance_create_depth(indent + sprite_get_width(sPlay) + sprite_get_width(sLabel) + 9, 144 + sprite_get_height(sSlider) + 3, depth-1, oDensity);
+		soundsObject = instance_create_depth(indent - sprite_get_width(sSound), 64, depth-1, oSoundsManager);
+
+		
 		var _buffer = buffer_load("savedState.save");
 		var _string = buffer_read(_buffer, buffer_string);
 		buffer_delete(_buffer);

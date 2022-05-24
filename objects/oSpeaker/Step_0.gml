@@ -1,5 +1,5 @@
 if sounded {
-	scale += 0.2;
+	scale = 1.25;
 	sounded = false;
 	accel = 1;
 }

@@ -5,9 +5,7 @@ soundsObject = instance_create_depth(indent - sprite_get_width(sSound), 64, dept
 muteSoloObject = instance_create_depth(indent,63,depth-1,oMuteSolo);
 tempoObject = instance_create_depth(indent + sprite_get_width(sLabel) + 4,36, depth-1,oTempo);
 playObject = instance_create_depth(indent, 144, depth-1, oPlay);
-
 stereoObject = instance_create_depth(202, 165, depth-1, oStereo);
-
 volumeObject = instance_create_depth(indent + sprite_get_width(sPlay) + sprite_get_width(sLabel) + 9, 144, depth-1, oVolume);
 densityObject = instance_create_depth(indent + sprite_get_width(sPlay) + sprite_get_width(sLabel) + 9, 144 + sprite_get_height(sSlider) + 3, depth-1, oDensity);
 
