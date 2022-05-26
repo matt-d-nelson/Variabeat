@@ -8,15 +8,10 @@ Variabeat is a drum sequencer that enables the creation of chance based rhythms.
 ![Variabeat](https://user-images.githubusercontent.com/98720000/170555301-86f5b926-ef48-416e-af39-9abe8a0dcad9.gif)
 
 
-## Download
-
+Download
+======
+## MacOS
 [Beat Randomizer.zip](https://github.com/matt-d-nelson/Variabeat/files/8781712/Beat.Randomizer.zip)
-
-
-## Built With
-
-- GameMaker Studio 2
-- Aesprite
 
 Usage
 ===========
@@ -65,6 +60,10 @@ Save/Load
 1. Left Click the “load” button to open file explorer.
 2. Select the desired file name and click “open”.
 
+## Built With
+
+- GameMaker Studio 2
+- Aesprite
 
 ## Support
 If you have suggestions or issues, please email me at matt.dav.nelson@gmail.com
