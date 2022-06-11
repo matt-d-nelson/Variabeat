@@ -39,7 +39,7 @@ draw_sprite_ext(
 
 
 //Troubleshooting
-//draw_text(58,10,greenY);
+//draw_text(58,3,tempoVarObject.tempoVar*50);
 //draw_text(78,10,volumeObject.sprite_width);
 
 //draw_text(68,20,(floor(mouse_x/4)-volumeObject.x)/volumeObject.sprite_width);
