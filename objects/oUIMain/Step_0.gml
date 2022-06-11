@@ -15,7 +15,11 @@ if playObject.playing {
 		CheckForSolo(muteSoloObject.muteSoloArray);
 		CalculateAndPlaySounds(gridObject.steps[stepIndex],muteSoloObject.muteSoloArray);
 		// add random range for tempo variation
-		timer = tempoObject.framesPerBeat;
+		if tempoVarObject.tempoVar >= 0 {
+			timer = tempoObject.framesPerBeat + irandom_range(0, tempoVarObject.tempoVar*50);
+		} else {
+			timer = tempoObject.framesPerBeat + irandom_range(tempoVarObject.tempoVar*50, 0);
+		}
 		stepIndex++;
 	}
 	timer -= 2;
