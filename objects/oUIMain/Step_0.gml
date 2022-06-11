@@ -19,6 +19,8 @@ if playObject.playing {
 	}
 	timer -= 2;
 	
+	//animation sticks at 400 due to rounding issue/ low priority
+	
 	//animate logo
 	if round(_greenAni) == y+2 && animateBlack && animatePink {animateGreen = true;}
 	if round(_pinkAni) == y+2 && animateBlack {animatePink = true;}
