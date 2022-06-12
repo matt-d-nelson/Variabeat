@@ -3,15 +3,14 @@
 
 Variabeat
 ======
-Variabeat is a drum sequencer that enables the creation of chance based rhythms. The probability of a sequenced note sounding can be adjusted individually resulting in lively and improvisatory rhythms. 
+Variabeat is a drum sequencer that enables the playback of chance based rhythms. The probability of a sequenced note sounding can be adjusted individually, resulting in lively and improvisatory rhythms. 
 
-![Variabeat](https://user-images.githubusercontent.com/98720000/170555301-86f5b926-ef48-416e-af39-9abe8a0dcad9.gif)
-
+![Variabeat](https://user-images.githubusercontent.com/98720000/173251565-21ab5e0e-cc59-480a-9a9e-48bdf8f91236.gif)
 
 Download
 ======
 ## MacOS
-[Beat Randomizer.zip](https://github.com/matt-d-nelson/Variabeat/files/8781712/Beat.Randomizer.zip)
+[Variabeat.zip](https://github.com/matt-d-nelson/Variabeat/files/8886712/Variabeat.zip)
 
 Usage
 ===========
@@ -39,10 +38,13 @@ Playback
 Tempo Control
 ------------
 ### Note: Tempo is based on 8th note values.
-Left Click on the box to the right of the “tempo” box to adjust the tempo in the following ways:
+- Left Click on the box to the right of the “tempo” box to adjust the tempo in the following ways:
   - Left Clicking and dragging.
   - While selected (the box will be green), type in the desired tempo.
   - While selected, use the mouse scroll wheel to increase or decrease the tempo.
+- Click and drag the "var" slider to randomize playback in the following ways:
+  - Drag right to randomly reduce the amount of time between steps.
+  - Drag left to randomly increase the amount of time between steps.
 
 Importing sounds
 ------------
