@@ -41,3 +41,5 @@ if densityPrevious != density {
 
 chance = clamp(chance,0.1,1); //moved outside of selected for global density adjustment
 
+// decrement flash
+flash = max(flash-0.04,0);

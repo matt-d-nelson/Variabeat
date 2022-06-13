@@ -3,6 +3,7 @@ function CalculateAndPlaySounds(_stepArray,_muteSoloArray){
 		if _stepArray[i].active && _stepArray[i].chance >= random(1) && !_muteSoloArray[i].mute {
 			if !soloMode || _muteSoloArray[i].solo {
 				playSoundSwitch(i);
+				_stepArray[i].flash = 1;
 			}
 		}
 	}
