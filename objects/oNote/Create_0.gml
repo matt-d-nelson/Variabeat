@@ -10,3 +10,7 @@ affectedByDensity = false;
 
 mousePrevious = 0;
 
+flash = 0;
+flashShader = shYellowFlash;
+uFlash = shader_get_uniform(flashShader, "flash");
+
