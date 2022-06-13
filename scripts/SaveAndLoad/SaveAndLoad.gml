@@ -5,7 +5,9 @@ function CreateSaveFile() {
 	//save tempo data
 	var _saveTempo = {
 		tempo : tempoObject.tempo,
-		framesPerBeat : tempoObject.framesPerBeat
+		framesPerBeat : tempoObject.framesPerBeat,
+		tempoVar : tempoVarObject.tempoVar,
+		sliderX : tempoVarObject.sliderX
 	}
 	array_push(_saveData,_saveTempo);
 	
@@ -70,11 +72,13 @@ function LoadSaveFile() {
 		//clear and recreate current instances before loading
 		instance_destroy(gridObject);
 		instance_destroy(tempoObject);
+		instance_destroy(tempoVarObject);
 		instance_destroy(densityObject);
 		instance_destroy(soundsObject);
 
 		gridObject = instance_create_depth(indent,63,depth-1,oStepGrid);
-		tempoObject = instance_create_depth(indent + sprite_get_width(sLabel) + 4,36, depth-1,oTempo);
+		tempoObject = instance_create_depth(indent + sprite_get_width(sLabel) + 4,27, depth-1,oTempo);
+		tempoVarObject = instance_create_depth(indent + 22,37, depth-1,oTempoVar);
 		densityObject = instance_create_depth(indent + sprite_get_width(sPlay) + sprite_get_width(sLabel) + 9, 144 + sprite_get_height(sSlider) + 3, depth-1, oDensity);
 		soundsObject = instance_create_depth(indent - sprite_get_width(sSound), 64, depth-1, oSoundsManager);
 
@@ -88,6 +92,8 @@ function LoadSaveFile() {
 		//load tempo
 		tempoObject.tempo = _loadData[0].tempo;
 		tempoObject.framesPerBeat = _loadData[0].framesPerBeat;
+		tempoVarObject.tempoVar = _loadData[0].tempoVar;
+		tempoVarObject.sliderX = _loadData[0].sliderX;
 		//load density
 		densityObject.sliderX = _loadData[1].sliderX;
 		densityObject.changeToDensity = _loadData[1].changeToDensity;
