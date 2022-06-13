@@ -5,13 +5,12 @@ Variabeat
 ======
 Variabeat is a drum sequencer that enables the playback of chance based rhythms. The probability of a sequenced note sounding can be adjusted individually, resulting in lively and improvisatory rhythms. 
 
-![Variabeat](https://user-images.githubusercontent.com/98720000/173251565-21ab5e0e-cc59-480a-9a9e-48bdf8f91236.gif)
+![Variabeat](https://user-images.githubusercontent.com/98720000/173427749-094a4bad-edfd-4831-8b1f-7efe0d84fdd6.gif)
 
 Download
 ======
 ## MacOS
-[Variabeat.zip](https://github.com/matt-d-nelson/Variabeat/files/8893578/Variabeat.zip)
-
+[Variabeat.zip](https://github.com/matt-d-nelson/Variabeat/files/8893807/Variabeat.zip)
 
 Usage
 ===========
