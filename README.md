@@ -5,12 +5,19 @@ Variabeat
 ======
 Variabeat is a drum sequencer that enables the playback of chance based rhythms. The probability of a sequenced note sounding can be adjusted individually, resulting in lively and improvisatory rhythms. 
 
-![Variabeat](https://user-images.githubusercontent.com/98720000/173251565-21ab5e0e-cc59-480a-9a9e-48bdf8f91236.gif)
+![Variabeat](https://user-images.githubusercontent.com/98720000/173427749-094a4bad-edfd-4831-8b1f-7efe0d84fdd6.gif)
 
 Download
 ======
 ## MacOS
-[Variabeat.zip](https://github.com/matt-d-nelson/Variabeat/files/8893578/Variabeat.zip)
+### Note: Most Macs will treat any downloaded applications as a security threat and report the file as damaged when opened. Please perform the following steps to install Variabeat:
+1. Download the application here: [Variabeat.zip](https://github.com/matt-d-nelson/Variabeat/files/8893833/Variabeat.zip)
+2. Unzip the application by double clicking it.
+3. Open a teminal window by navigating to /Applications/Utilities and double clicking on "Terminal".
+4. Copy "xattr -d com.apple.quarantine " and paste it into the terminal window (ensure that there is a space at the end).
+5. Click and drag the unzipped "Variabeat" application into the teminal window (the file path to the application should appear after the command pasted in step 4).
+6. In the terminal window, press "enter" or "return" to execute the command.
+7. Double click the "Variabeat" application to run the program.
 
 
 Usage
