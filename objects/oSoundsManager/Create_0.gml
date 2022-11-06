@@ -53,7 +53,7 @@ array_push(sounds, CreateNewSound(D3, "C#3", x, y+(8*sprite_get_height(sSound)))
 */
 
 // For Awhile
-
+/*
 array_push(sounds, CreateNewSound(PsD, "D", x, y));
 array_push(sounds, CreateNewSound(PsC, "C", x, y+sprite_get_height(sSound)));
 array_push(sounds, CreateNewSound(PsF, "F", x, y+(2*sprite_get_height(sSound))));
@@ -63,4 +63,44 @@ array_push(sounds, CreateNewSound(PsB, "B", x, y+(5*sprite_get_height(sSound))))
 array_push(sounds, CreateNewSound(PsC1, "C1", x, y+(6*sprite_get_height(sSound))));
 array_push(sounds, CreateNewSound(PsD1, "D1", x, y+(7*sprite_get_height(sSound))));
 array_push(sounds, CreateNewSound(PsE1, "E1", x, y+(8*sprite_get_height(sSound))));
+*/
+
+// Addicted
+
+array_push(sounds, CreateNewSound(LB1, "LB1", x, y));
+array_push(sounds, CreateNewSound(LB2, "LB2", x, y+sprite_get_height(sSound)));
+array_push(sounds, CreateNewSound(LB3, "LB3", x, y+(2*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(HB1, "HB1", x, y+(3*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(HB2, "HB2", x, y+4*(sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(HB3, "HB3", x, y+(5*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(Cab1, "Cab1", x, y+(6*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(Cab2, "Cab2", x, y+(7*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(Cab3, "Cab3", x, y+(8*sprite_get_height(sSound))));
+
+
+// Wash
+/*
+array_push(sounds, CreateNewSound(PsD, "D", x, y));
+array_push(sounds, CreateNewSound(PsC, "C", x, y+sprite_get_height(sSound)));
+array_push(sounds, CreateNewSound(PsF, "F", x, y+(2*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsG, "G", x, y+(3*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsA, "A", x, y+4*(sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsB, "B", x, y+(5*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsC1, "C1", x, y+(6*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsD1, "D1", x, y+(7*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsE1, "E1", x, y+(8*sprite_get_height(sSound))));
+*/
+
+// Please
+/*
+array_push(sounds, CreateNewSound(PsD, "D", x, y));
+array_push(sounds, CreateNewSound(PsC, "C", x, y+sprite_get_height(sSound)));
+array_push(sounds, CreateNewSound(PsF, "F", x, y+(2*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsG, "G", x, y+(3*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsA, "A", x, y+4*(sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsB, "B", x, y+(5*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsC1, "C1", x, y+(6*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsD1, "D1", x, y+(7*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsE1, "E1", x, y+(8*sprite_get_height(sSound))));
+*/
 

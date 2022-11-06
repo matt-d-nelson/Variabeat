@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "PsG.wav",
-  "duration": 4.953401,
+  "duration": 6.437506,
   "parent": {
     "name": "ForAwhile",
     "path": "folders/Sounds/ForAwhile.yy",
