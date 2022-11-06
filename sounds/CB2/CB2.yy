@@ -5,14 +5,14 @@
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
-  "type": 0,
+  "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "CB2.wav",
-  "duration": 0.37737,
+  "duration": 0.083946,
   "parent": {
     "name": "GoingOn",
     "path": "folders/Sounds/GoingOn.yy",
