@@ -27,7 +27,7 @@ array_push(sounds, CreateNewSound(D3, "C#3", x, y+(8*sprite_get_height(sSound)))
 */
 
 // Going On
-
+/*
 array_push(sounds, CreateNewSound(CB1, "CB1", x, y));
 array_push(sounds, CreateNewSound(CB2, "CB2", x, y+sprite_get_height(sSound)));
 array_push(sounds, CreateNewSound(Bowl1, "Bowl1", x, y+(2*sprite_get_height(sSound))));
@@ -37,7 +37,7 @@ array_push(sounds, CreateNewSound(Stack, "Stack", x, y+(5*sprite_get_height(sSou
 array_push(sounds, CreateNewSound(D1, "C#1", x, y+(6*sprite_get_height(sSound)))); //included for stability
 array_push(sounds, CreateNewSound(D2, "C#2", x, y+(7*sprite_get_height(sSound))));
 array_push(sounds, CreateNewSound(D3, "C#3", x, y+(8*sprite_get_height(sSound))));
-
+*/
 
 // Pento
 /*
@@ -51,3 +51,16 @@ array_push(sounds, CreateNewSound(OudF1, "OudF#1", x, y+(6*sprite_get_height(sSo
 array_push(sounds, CreateNewSound(OudF2, "OudF#2", x, y+(7*sprite_get_height(sSound))));
 array_push(sounds, CreateNewSound(D3, "C#3", x, y+(8*sprite_get_height(sSound))));
 */
+
+// For Awhile
+
+array_push(sounds, CreateNewSound(PsD, "D", x, y));
+array_push(sounds, CreateNewSound(PsC, "C", x, y+sprite_get_height(sSound)));
+array_push(sounds, CreateNewSound(PsF, "F", x, y+(2*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsG, "G", x, y+(3*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsA, "A", x, y+4*(sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsB, "B", x, y+(5*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsC1, "C1", x, y+(6*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsD1, "D1", x, y+(7*sprite_get_height(sSound))));
+array_push(sounds, CreateNewSound(PsE1, "E1", x, y+(8*sprite_get_height(sSound))));
+

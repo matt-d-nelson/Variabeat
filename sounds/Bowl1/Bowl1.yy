@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Bowl1.wav",
-  "duration": 0.083946,
+  "duration": 0.62229,
   "parent": {
     "name": "GoingOn",
     "path": "folders/Sounds/GoingOn.yy",
